@@ -1,0 +1,21 @@
+@media (min-width: 768px){
+    .contenedor{
+        grid-template-columns: 25vw 75vw;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "nav nav"
+        "header header"
+        "footer footer";
+    } 
+}
+
+@media (min-width: 1024px){
+    .contenedor{
+        grid-template-columns: 25vw 75vw;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "nav nav"
+        "header header"
+        "footer footer";
+    }
+}

@@ -1,0 +1,19 @@
+.buttonhola{
+    margin-left: 30px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    color: black;
+    border-radius: 6px;
+    transition: all 4s;
+    margin-top: 120px;
+    text-align: right;
+}
+
+.buttonhola:hover{
+background: linear-gradient(to top, blue, red);
+box-shadow: 1px 5px 12px 1px blue;
+cursor: pointer;
+}
